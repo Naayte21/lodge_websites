@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naayte's Lodge - Your Perfect Getaway</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="container">
+        <a href="#" class="logo">Pine Naayte Lodge</a>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#accommodations">Accommodations</a></li>
+          <li><a href="#booking">Book Now</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Experience Nature's Luxury</h1>
+        <p>
+          Nestled in the heart of pristine wilderness, Pine Naayte Lodge offers
+          an unforgettable retreat where comfort meets nature.
+        </p>
+        <a href="#booking" class="btn">Book Your Stay</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Our Story</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Founded in 2024, Pine Nayte Lodge has been a haven for nature
+              enthusiasts and those seeking peace away from the hustle of city
+              life. Our family-owned establishment combines rustic charm with
+              modern amenities to provide a truly memorable experience.
+            </p>
+            <p>
+              Set on 50 acres of pristine forest with stunning Pine views, our
+              lodge offers various accommodations to suit every preference, from
+              cozy cabins to luxurious suites.
+            </p>
+            <p>
+              We pride ourselves on sustainable practices and a commitment to
+              preserving the natural beauty that surrounds us, ensuring that
+              generations to come can enjoy the same breathtaking experiences.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="./img/hotel.jpg" alt="Naayte Lodge exterior view" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Lodge Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">🌲</div>
+            <h3>Nature Trails</h3>
+            <p>
+              Explore miles of well-maintained hiking trails suitable for all
+              skill levels, winding through ancient forests and magnificent
+              viewpoints.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔥</div>
+            <h3>Cozy Fireplace</h3>
+            <p>
+              Every room features a traditional wood-burning fireplace, perfect
+              for those chilly mountain evenings.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🍲</div>
+            <h3>Farm-to-Table Dining</h3>
+            <p>
+              Our restaurant serves locally-sourced, seasonal cuisine
+              prlodge-4024129_640.jpgepared by our expert chefs using
+              traditional recipes.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">💆</div>
+            <h3>Wellness Center</h3>
+            <p>
+              Rejuvenate your body and mind at our wellness center offering
+              massages, yoga classes, and a natural hot spring.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accommodations Section -->
+    <section id="accommodations">
+      <div class="container">
+        <h2 class="section-title">Our Accommodations</h2>
+        <div class="rooms-grid">
+          <div class="room-card">
+            <div class="room-image">
+              <img
+                src="./img/single-media-group-2148140539-31057550.jpg"
+                alt="Standard Cabin"
+              />
+            </div>
+            <div class="room-details">
+              <h3 class="room-title">Standard Cabin</h3>
+              <p class="room-price">From R500 per night</p>
+              <p>
+                Our cozy standard cabins feature one bedroom with a queen bed, a
+                private bathroom, kitchenette, and a porch with forest views.
+              </p>
+              <a href="#booking" class="btn">Book Now</a>
+            </div>
+          </div>
+          <div class="room-card">
+            <div class="room-image">
+              <img src="./img/delux.jpg" alt="Deluxe Cabin" />
+            </div>
+            <div class="room-details">
+              <h3 class="room-title">Deluxe Cabin</h3>
+              <p class="room-price">From R900 per night</p>
+              <p>
+                lodge-4024129_640.jpg Spacious two-bedroom cabins with premium
+                furnishings, full kitchen, private hot tub, and panoramic
+                mountain views.
+              </p>
+              <a href="#booking" class="btn">Book Now</a>
+            </div>
+          </div>
+          <div class="room-card">
+            <div class="room-image">
+              <img src="./img/premi.jpg" alt="Luxury Suite" />
+            </div>
+            <div class="room-details">
+              <h3 class="room-title">Luxury Suite</h3>
+              <p class="room-price">From R1500 per night</p>
+              <p>
+                Our premium offering features three bedrooms, gourmet kitchen,
+                floor-to-ceiling windows, private deck with fire pit, and
+                exclusive amenities.
+              </p>
+              <a href="#booking" class="btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+      <div class="container">
+        <h2 class="section-title">Book Your Stay</h2>
+        <form id="bookingForm" class="booking-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="number"
+                id="phone"
+                name="phone"
+                maxlength="10"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkIn">Check-in Date</label>
+              <input type="date" id="checkIn" name="checkIn" required />
+            </div>
+            <div class="form-group">
+              <label for="checkOut">Check-out Date</label>
+              <input type="date" id="checkOut" name="checkOut" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="roomType">Accommodation Type</label>
+              <select id="roomType" name="roomType" required>
+                <option value="standard">Standard Cabin</option>
+                <option value="deluxe">Deluxe Cabin</option>
+                <option value="luxury">Luxury Suite</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="specialRequests">Special Requests</label>
+            <textarea
+              id="specialRequests"
+              name="specialRequests"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="compbooking">
+            <button type="submit" class="btn full-width">
+              Complete Booking
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              <strong>Address:</strong> 714 Forest Road, Thekwane South,
+              Nelspruit 12002
+            </p>
+            <p><strong>Phone:</strong> (+27)23 123-4567</p>
+            <p><strong>Email:</strong> info@naayte&melz@gmail.com</p>
+            <br />
+            <p>
+              Have questions or need assistance with your booking? Our friendly
+              staff is available 24/7 to help make your stay perfect. Don't
+              hesitate to reach out with any inquiries about our accommodations,
+              amenities, or local attractions.
+            </p>
+          </div>
+          <div class="about-image">
+            <img
+              src="./img/receptionists-5975962_640.jpg"
+              alt="Reception area"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Pine Naayte Lodge</h3>
+            <p>Your perfect Pine getaway nestled in pristine wilderness.</p>
+            <div class="social-links">
+              <a href="#"></a>
+              <a href="#">📷</a>
+              <a href="#">💼</a>
+              <a href="#">🐦</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#accommodations">Accommodations</a></li>
+              <li><a href="#booking">Book Now</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Activities</h3>
+            <ul class="footer-links">
+              <li><a href="#">Hiking Trails</a></li>
+              <li><a href="#">Fishing</a></li>
+              <li><a href="#">Bird Watching</a></li>
+              <li><a href="#">Seasonal Events</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter for special offers and updates.</p>
+            <form>
+              <input
+                type="email"
+                placeholder="Your email address"
+                style="margin-bottom: 10px"
+              />
+              <button class="btn full-width">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Pine Naayte Lodge. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Booking Confirmation Modal -->
+    <div id="bookingModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <div class="success-icon">✓</div>
+        <h2>Booking Confirmed!</h2>
+        <p>
+          Thank you for choosing Pine Pine Lodge. Your booking has been
+          successfully submitted.
+        </p>
+        <p>
+          A confirmation email with your booking details has been sent to
+          <span id="confirmationEmail"></span>.
+        </p>
+        <p>We look forward to welcoming you!</p>
+        <button
+          class="btn full-width"
+          id="closeModalBtn"
+          style="margin-top: 20px"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
